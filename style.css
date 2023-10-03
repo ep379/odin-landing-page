@@ -1,8 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
 .container_one {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    flex: 1;
 }
 
 .header {
@@ -37,12 +44,17 @@ a {
     color: #E5E7EB;
 }
 
-.header-logo {
+.header-logo, .call-toaction {
     font-size: 24px;
 }
 
-button, .call-text {
+.call-toaction {
+    font-weight: bolder;
+}
+
+button, .blue-box {
     background-color: #3882f6;
+    color: #E5E7EB;
 }
 
 .random-info {
@@ -50,12 +62,32 @@ button, .call-text {
     font-size: 36px;
     font-weight: bolder;
 }
+.container_two {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 .container_three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.blue-box {
+    display: flex;
+}
+.container_four{
+    flex: 1;
 }
 
 .quote-text {
     color: #1F2937;
     font-size: 36px;
+}
+
+.blue-box, .container_three, .container_two {
+    align-items: center;
+    justify-content: center;
 }
