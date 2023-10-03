@@ -1,0 +1,61 @@
+.container_one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.awesome-image {
+    display: flex;
+    align-items: center;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+button, .call-text {
+    background-color: #3882f6;
+}
+
+.random-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container_three {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+}
